@@ -1,0 +1,94 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: rgb(31, 31, 31);
+}
+
+#header-div{
+  border-bottom:rgb(201, 201, 201) solid 1px;
+  margin-bottom:10px;
+  color:white;
+}
+
+.flex-div{
+  display:flex;
+  justify-content: center;
+}
+
+.word-box{
+  height:50px;
+  width:50px;
+  border:solid rgb(73, 73, 73) 3px;
+  margin: 5px 5px 5px 5px;
+  display:flex;
+  justify-content: center;
+  color:white;
+}
+
+.word-box-active{
+  height:50px;
+  width:50px;
+  border:solid rgb(116, 116, 116) 3px;
+  margin: 5px 5px 5px 5px;
+  display:flex;
+  justify-content: center;
+  color:white;
+}
+
+.word-box-green{
+  height:50px;
+  width:50px;
+  border:solid green 3px;
+  background-color: green;
+  margin: 5px 5px 5px 5px;
+  display:flex;
+  justify-content: center;
+  color:white;
+}
+
+.word-box-yellow{
+  height:50px;
+  width:50px;
+  border:solid rgb(175, 175, 0) 3px;
+  background-color: rgb(175, 175, 0);
+  margin: 5px 5px 5px 5px;
+  display:flex;
+  justify-content: center;
+  color:white;
+}
+
+.word-box-grey{
+  height:50px;
+  width:50px;
+  border:solid rgb(73,73,73) 3px;
+  background-color: rgb(73,73,73);
+  margin: 5px 5px 5px 5px;
+  display:flex;
+  justify-content: center;
+  color:white;
+}
+
+.letter-in-box{
+  font-size:20px;
+  margin-top:15px
+}
+
+#keyboard{
+  margin-top:20px
+}
+
+#enter{
+  width:45px;
+}
+
+#backspace{
+  width:75px;
+}
+
+.letter-button{
+  height:35px;
+  width:25px;
+  margin:5px 5px 5px 5px;
+  color:white;
+  background-color: grey;
+  border-radius: 5px;
+}
